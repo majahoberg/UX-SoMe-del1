@@ -3,3 +3,10 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.forside, .forside p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}

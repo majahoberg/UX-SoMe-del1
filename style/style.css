@@ -40,6 +40,7 @@ button {
     margin: auto;
     color: #57b7cb;
     border-radius: 10px;
+    border-style: none;
     font-size: 20px;
     text-transform: uppercase;
     box-shadow:  1px 4px #258DA2;

@@ -4,9 +4,14 @@ body {
     box-sizing: border-box;
 }
 
-
+*{
+  background: #57b7cb;
+}
 .forside, .forside p {
   display: flex;
   justify-content: center;
   text-align: center;
+}
+.forside p, h1{
+  color: #f4f4f7;
 }

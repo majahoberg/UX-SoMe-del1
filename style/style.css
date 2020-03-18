@@ -44,5 +44,12 @@ p {
     font-size: 20px;
     text-transform: uppercase;
     box-shadow:  1px 4px #258DA2;
+}
 
+.category button{
+    width: 130px;
+    height: 130px;
+    margin: 15px;
+    border-radius: 50%;
+    border-style: none;
 }

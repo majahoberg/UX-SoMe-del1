@@ -33,11 +33,16 @@ h1 {
     text-align: center;
 }
 
+.forside h1{
+  font-size: 70px;
+}
+
 p {
     font-size: 20px;
     width: auto;
     line-height: 28px;
     width: 490px;
+    text-align: center;
 }
 
 main,
@@ -61,13 +66,13 @@ p {
 }
 
 
-.forside img{
-    width: 100px;
-    position: absolute;
-    margin-left: 150px;
-    margin-top: 200px;
-}
 
+.forside img{
+    width: 150px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 170px;
+}
 
 .forside a {
         margin: 0 auto;

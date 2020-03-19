@@ -10,14 +10,14 @@ fetch("http://worldtimeapi.org/api/timezone/Europe/Copenhagen")
 
 
 .then(function(post) {
-    const tid = document.getElementById("dag");
-    dag.insertAdjecentHTML = (post.day_of_week);
+        const dag = document.getElementById("dag");
+        dag.insertAdjecentHTML = (post.day_of_week);
+
 		const tid = document.getElementById("tid");
 	 	const datoOGtid = new Date(post.datetime);
 
-		tid.insertAdjacentHTML("beforeend", "<br>Tid: " + datoOGtid.getHours() + ":" + datoOGtid.getMinutes());
+		tid.insertAdjacentHTML("beforeend", "Tid: " + datoOGtid.getHours() + ":" + datoOGtid.getMinutes());
 
-	 	dag.insertAdjacentHTML("beforeend", "<br>Tid: " + datoOGtid.getHours() + ":" + datoOGtid.getMinutes());
 
 		if(post.day_of_week == 1) {
 			document.getElementById("dag").insertAdjacentHTML('beforeend', "<p>Monday</p>");

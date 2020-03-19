@@ -35,6 +35,11 @@ h1 {
 
 .forside h1{
   font-size: 70px;
+  margin-bottom: 20px;
+}
+
+.forside {
+margin-top: 100px;
 }
 
 p {
@@ -50,7 +55,6 @@ p {
     display: grid;
     justify-content: center;
     margin: 10px;
-    margin-bottom: 40px;
 }
 
 .forside button {

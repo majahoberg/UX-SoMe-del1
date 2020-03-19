@@ -13,21 +13,25 @@ fetch("http://worldtimeapi.org/api/timezone/Europe/Copenhagen")
     const tid = document.getElementById("tid");
     tid.innerHTML = (post.day_of_week);
 
-		if(post.day_of_week === 1){
-			tid.innerHTML = ("Monday");
+		if(post.day_of_week === 1) {
+			document.getElementById("tid").innerHTML("beforeend", "<p>Monday</p>");
+
 		} else if (post.day_of_week === 2) {
-			tid.innerHTML = ("Thuesday");
+			document.getElementById("tid").innerHTML("beforeend", "<p>Tuesday</p>");
+
 		} else if (post.day_of_week === 3) {
-			tid.innerHTML = ("Wednesday");
+			document.getElementById("tid").innerHTML("beforeend", "<p>Wednesday</p>");
+
 		} else if (post.day_of_week === 4) {
-			tid.innerHTML = ("Thursday");
+			document.getElementById("tid").innerHTML("beforeend", "<p>Thursday</p>");
+
 		}	else if (post.day_of_week === 5) {
-				tid.innerHTML = ("Friday");
+			document.getElementById("tid").innerHTML("beforeend", "<p>Friday</p>");
+
 		}	else if (post.day_of_week === 6) {
-					tid.innerHTML = ("Saturday");
+			document.getElementById("tid").innerHTML("beforeend", "<p>Saturday</p>");
+
 		}	else if (post.day_of_week === 7) {
-						tid.innerHTML = ("Sunday");
-
-		}
-
+			document.getElementById("tid").innerHTML("beforeend", "<p>Sunday</p>");
+				}
     });

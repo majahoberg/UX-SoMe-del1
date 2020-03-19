@@ -51,7 +51,6 @@ p {
 .forside button {
     width: 150px;
     height: 50px;
-    margin: auto;
     color: #57b7cb;
     border-radius: 10px;
     border-style: none;
@@ -61,10 +60,12 @@ p {
     box-shadow:  1px 4px #258DA2;
 }
 
-button a{
-    text-decoration: none;
-    color: #57b7cb;
+.forside a {
+        margin: 0 auto;
+        text-decoration: none;
+        color: #57b7cb;
 }
+
 
 .category button{
     width: 130px;

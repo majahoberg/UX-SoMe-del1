@@ -14,24 +14,24 @@ fetch("http://worldtimeapi.org/api/timezone/Europe/Copenhagen")
     tid.innerHTML = (post.day_of_week);
 
 		if(post.day_of_week === 1) {
-			document.getElementById("tid").innerHTML("beforeend", "<p>Monday</p>");
+			document.getElementById("tid").insertAdjecentHTML('beforeend', "<p>Monday</p>");
 
 		} else if (post.day_of_week === 2) {
-			document.getElementById("tid").innerHTML("beforeend", "<p>Tuesday</p>");
+			document.getElementById("tid").insertAdjecentHTML('beforeend', "<p>Monday</p>");
 
 		} else if (post.day_of_week === 3) {
-			document.getElementById("tid").innerHTML("beforeend", "<p>Wednesday</p>");
+			document.getElementById("tid").insertAdjecentHTML('beforeend', "<p>Monday</p>");
 
 		} else if (post.day_of_week === 4) {
-			document.getElementById("tid").innerHTML("beforeend", "<p>Thursday</p>");
+			document.getElementById("tid").insertAdjecentHTML('beforeend', "<p>Monday</p>");
 
 		}	else if (post.day_of_week === 5) {
-			document.getElementById("tid").innerHTML("beforeend", "<p>Friday</p>");
+			document.getElementById("tid").insertAdjecentHTML('beforeend', "<p>Monday</p>");
 
 		}	else if (post.day_of_week === 6) {
-			document.getElementById("tid").innerHTML("beforeend", "<p>Saturday</p>");
+			document.getElementById("tid").insertAdjecentHTML('beforeend', "<p>Monday</p>");
 
 		}	else if (post.day_of_week === 7) {
-			document.getElementById("tid").innerHTML("beforeend", "<p>Sunday</p>");
+			document.getElementById("tid").insertAdjecentHTML('beforeend', "<p>Monday</p>");
 				}
     });

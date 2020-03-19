@@ -10,6 +10,20 @@ h1,
 p {
     color: #f4f4f7;
 }
+.infotext{
+  border-radius: 50px;
+  background: #f4f4f7;
+  }
+.infotext p{
+    color #57b7cb;
+    align-items: center;
+    justify-content: center;
+  }
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 h1 {
     text-transform: uppercase;

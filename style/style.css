@@ -76,6 +76,8 @@ button a{
     margin: 15px;
     border-radius: 50%;
     border-style: none;
+    box-shadow:  0px 5px #258DA2;
+    border-style: none;
 }
 
 .categoryaudio button, .categorycamera button{

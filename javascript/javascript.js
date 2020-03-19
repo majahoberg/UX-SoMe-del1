@@ -16,7 +16,7 @@ fetch("http://worldtimeapi.org/api/timezone/Europe/Copenhagen")
 		const tid = document.getElementById("tid");
 	 	const datoOGtid = new Date(post.datetime);
 
-		tid.insertAdjacentHTML("beforeend", "Tid: " + datoOGtid.getHours() + ":" + datoOGtid.getMinutes());
+		tid.insertAdjacentHTML("beforeend", datoOGtid.getHours() + ":" + datoOGtid.getMinutes());
 
 
 		if(post.day_of_week == 1) {

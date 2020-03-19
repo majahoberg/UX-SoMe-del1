@@ -60,6 +60,15 @@ p {
     box-shadow:  1px 4px #258DA2;
 }
 
+
+.forside img{
+    width: 100px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 200px;
+}
+
+
 .forside a {
         margin: 0 auto;
 }

@@ -59,3 +59,12 @@ button a{
     border-radius: 50%;
     border-style: none;
 }
+
+.categoryaudio button{
+    width: 115px;
+    height: 115px;
+    margin: 25px;
+    border-radius: 50%;
+    border-style: none;
+    box-shadow:  0px 4px #258DA2;
+    border-style: none;

@@ -5,7 +5,14 @@ body {
     background: #57b7cb;
     font-family: 'Montserrat', sans-serif;
 }
+header{
+  background: #57b7cb;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
+}
 h1,
 p {
     color: #f4f4f7;

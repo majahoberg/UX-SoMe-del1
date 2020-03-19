@@ -18,7 +18,6 @@ fetch("http://worldtimeapi.org/api/timezone/Europe/Copenhagen")
 
 		tid.insertAdjacentHTML("beforeend", datoOGtid.getHours() + ":" + datoOGtid.getMinutes());
 
-
 		if(post.day_of_week == 1) {
 			document.getElementById("dag").insertAdjacentHTML('beforeend', "<p>Monday</p>");
 

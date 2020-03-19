@@ -75,7 +75,7 @@ p {
     border-style: none;
 }
 
-.categoryaudio button{
+.categoryaudio button, .categorycamera button{
     width: 115px;
     height: 115px;
     margin: 25px;

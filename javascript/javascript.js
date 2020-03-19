@@ -11,6 +11,6 @@ fetch("http://worldtimeapi.org/api/timezone/Europe/Copenhagen")
 
 .then(function(post) {
     const tid = document.getElementById("tid");
-    tid.innerHTML = ("Klokken er: "+ post.datetime);
+    tid.innerHTML = (post.abbreviation);
 
     });

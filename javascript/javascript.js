@@ -2,7 +2,7 @@
 
 
 
-fetch("http://worldtimeapi.org/api/timezone/Europe/Copenhagen")
+fetch("https://worldtimeapi.org/api/timezone/Europe/Copenhagen")
 
 .then (function(data) {
 	return data.json();

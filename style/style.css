@@ -19,7 +19,9 @@ header {
 /* HEADER END */
 
 /* TEXT START */
+main,
 p {
+  display: grid;
   justify-content: center;
   margin: 10px;
   font-size: 20px;
@@ -139,7 +141,66 @@ button a {
   margin-top: 100px;
 }
 
-#categoryman {
+
+/* CATEGORY END */
+
+/* kode til lighting 101 */
+.tilbage{
   width: 30%;
 }
-/* CATEGORY END */
+
+.lighting {
+    font-size: 46px;
+    margin-left: 26%
+}
+
+.a {
+    justify-content: flex-start;
+    margin-left: 3%;
+}
+
+.audioboy {
+    width: 20%;
+    height: auto;
+}
+
+.ops {
+    width: 60%;
+    height: auto;
+}
+
+.lysops {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 100px;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.light-tutorial p {
+    text-align: justify;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.toppen {
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+
+}
+
+.api2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-end;
+    margin-right: 35px;
+    height: 30px
+}
+
+#dag {
+    margin-right: 10px;
+}

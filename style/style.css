@@ -17,7 +17,7 @@ header{
 }
 .forsideapi{
 width: 100%;
-justify-content: flex-end;
+justify-content: flex-Start;
 }
 .api{
 
@@ -61,7 +61,7 @@ margin-top: 100px;
 
 p {
     font-size: 20px;
-    line-height: 28px;
+    line-height: 30px;
     width: 480px;
 }
 
@@ -101,11 +101,10 @@ button a{
     text-decoration: none;
     color: #57b7cb;
 }
-
 .category button{
-    width: 130px;
-    height: 130px;
-    margin: 15px;
+    width: 120px;
+    height: 120px;
+    margin: 25px;
     border-radius: 50%;
     border-style: none;
     box-shadow:  0px 5px #258DA2;

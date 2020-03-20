@@ -19,9 +19,7 @@ header {
 /* HEADER END */
 
 /* TEXT START */
-main,
 p {
-  display: grid;
   justify-content: center;
   margin: 10px;
   font-size: 20px;

@@ -32,12 +32,6 @@ p {
   width: 480px;
 }
 
-main,
-p {
-  display: grid;
-  justify-content: center;
-  margin: 10px;
-}
 
   h1,
   p, h6 {

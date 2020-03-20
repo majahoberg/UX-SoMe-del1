@@ -10,11 +10,11 @@ fetch("http://worldtimeapi.org/api/timezone/Europe/Copenhagen")
 
 
 .then(function(post) {
-        const dag = document.getElementById("dag");
-        dag.insertAdjecentHTML = (post.day_of_week);
+      const dag = document.getElementById("dag");
+      dag.insertAdjecentHTML = (post.day_of_week);
 
-		const tid = document.getElementById("tid");
-	 	const datoOGtid = new Date(post.datetime);
+			const tid = document.getElementById("tid");
+	 		const datoOGtid = new Date(post.datetime);
 
 		tid.insertAdjacentHTML("beforeend", datoOGtid.getHours() + ":" + datoOGtid.getMinutes());
 

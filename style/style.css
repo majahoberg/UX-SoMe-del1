@@ -16,7 +16,8 @@ header{
   width: 40%;
 }
 .forsideapi{
-float: right;
+width: 100%;
+justify-content: flex-end;
 }
 .api{
 

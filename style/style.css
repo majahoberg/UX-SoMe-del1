@@ -15,6 +15,12 @@ header{
 .tilbage{
   width: 40%;
 }
+.forsideapi{
+justify-content: flex-end;
+}
+.api{
+
+}
 h1,
 p {
     color: #f4f4f7;
@@ -45,7 +51,7 @@ h1 {
 
 .forside h1{
   font-size: 70px;
-  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .forside {
@@ -55,7 +61,7 @@ margin-top: 100px;
 p {
     font-size: 20px;
     line-height: 28px;
-    width: 580px;
+    width: 480px;
 }
 
 main,
@@ -79,14 +85,12 @@ p {
 }
 
 
-
-.forside img{
-    width: 150px;
-    position: absolute;
-    margin-left: 40px;
-    margin-top: 170px;
-}
-
+  .forside img{
+      width: 170px;
+      position: absolute;
+      margin-left: 40px;
+      margin-top: 100px;
+  }
 .forside a {
         margin: 0 auto;
 }

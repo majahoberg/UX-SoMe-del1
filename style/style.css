@@ -12,6 +12,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .tilbage {
@@ -19,7 +20,7 @@ header {
 }
 
 .forsideapi {
-  width: 100%;
+
 }
 
 .forsideapi p {
@@ -33,21 +34,27 @@ p {
   color: #f4f4f7;
 }
 
-.infotext {
+.infotext{
   border-radius: 50px;
   background: #f4f4f7;
-}
+    color: #57b7cb;
+    height: 250px;
+    font-size: 20px;
+    width: 40%;
+    padding: 50px;
+  }
 
-.infotext p {
-  color #57b7cb;
-  align-items: center;
-  justify-content: center;
-}
 
-.flex {
+.flex{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+.flex img{
+    width: 340px;
+    padding-top:
 }
 
 h1 {

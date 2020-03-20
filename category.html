@@ -9,6 +9,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="This is a UX digital user plaform.
   Here you can find tips, tricks and turtorials to the libarys Medialab. All rights recerved.">
+  <!-- Hotjar Tracking Code for www.majahoberg.com -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1730885,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
 </head>
 
 <body>
@@ -20,24 +31,35 @@
   <!-- TIME END -->
 
   <!-- HEADER START -->
-  <header>
-    <a href="index.html"><img class="tilbage" src="images/tilbageKnap.png" alt="Tilbage knap"></a>
+  <header class="toppen">
+    <a href="index.html"><img class="tilbage" src="images/tilbage.png" alt="Tilbage knap"></a>
+    <h1 class="pick ">PICK A CATEGORY</h1>
   </header>
+
   <!-- HEADER END -->
 
   <!-- CATEGORY START -->
   <main class="category">
-    <h1>Pick a category</h1>
     <p>There are three different categories to help you utilize Medialab to your favor.
       Every category has a simple tutorials to guide you - makeing it easy for you to use!</p>
-    <div>
+    <div class="cat-flex">
+     <div class="choose">
       <a href="category-audio.html"><button><img src="images/audio-icon.png" alt="help to setup audio"></button></a>
+      <p>AUDIO</p>
+      </div>
+      <div class="choose">
       <a href="category-camera.html"><button><img src="images/camera-icon.png" alt="help to setup a camera"></button></a>
+      <p>CAMERA</p>
+      </div>
+      <div class="choose">
       <a href="category-lighting.html"><button><img src="images/lighting-icon.png" alt="help to setup lighting"></button></a>
+      <p>LIGHTING</p>
+      </div>
     </div>
-    <img src="images/category-man.png" alt="Mediaguy helps you choose a category">
+    <img  class="cat-guy" src="images/category-man.png" alt="Mediaguy helps you choose a category">
   </main>
   <!-- CATEGORY END -->
+  <script src="javascript/javascript.js"></script>
 
 </body>
 </html>

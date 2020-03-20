@@ -9,6 +9,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="This is a UX digital user plaform.
   Here you can find tips, tricks and turtorials to the libarys Medialab. All rights recerved.">
+  <!-- Hotjar Tracking Code for www.majahoberg.com -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1730885,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
 </head>
 
 <body>
@@ -20,29 +31,33 @@
   <!-- TIME END -->
 
 <!-- HEADER START -->
-<header>
-  <a href="category.html"><img src="images/tilbageKnap.png" alt="Tilbage knap"></a>
-</header>
+<header class="toppen">
+    <a href="category.html"><img class="tilbage" src="images/tilbage.png" alt="Tilbage knap"></a>
+    <h1 class="audio ">AUDIO</h1>
+  </header>
 <!-- HEADER END -->
 
 <!-- CATEGORY AUDIO START -->
-  <main class="categoryaudio">
-    <img src="mediaguyaudio.png" alt="Mediaguy helps you choose a category within audio">
-    <h1>Audio</h1>
+  <main class="category">
     <p>Sound can be a powerful tool - whether you are making an interview, presenting for an audience or making a film.
       Here you can find different setups to help you get the best sound for the project you are working on,</p>
-    <div>
+    <div class="audio-flex">
+     <div>
       <button><img src="images/interview-icon.png" alt="Help to setup interview"></button>
-      <button><img src="images/soundeffects-icon.png" alt="Learn about sound effects"></button>
-      <button><img src="images/voioceover-icon.png" alt="Learn how to do voiceover"></button>
+      <p>INTERVIEW</p></div>
       <div>
-        <a href="category-audio-boomer.html"><button><img src="images/boomer-icon" alt="Help to use a boomer"></button></a>
-        <button><img src="images/fieldsound-icon.png" alt="Learn about fieldsound "></button>
-        <button><img src="images/music-icon.png" alt="Learn about music"></button>
-      </div>
+      <button><img src="images/soundeffects-icon.png" alt="Learn about sound effects"></button><p>SOUNDEFFECTS</p></div>
+      <div>
+      <button>
+      <img src="images/voiceover-icon.png" alt="Learn how to do voiceover">
+      </button><p>VOICE-OVER</p></div>
+        <div><a href="category-audio-boomer.html"><button><img src="images/boomer-icon.png" alt="Help to use a boomer"></button></a><p>BOOMER</p></div>
+        <div><button><img src="images/fieldsound-icon.png" alt="Learn about fieldsound "></button><p>FIELD SOUND</p></div>
+        <div><button><img src="images/music-icon.png" alt="Learn about music"></button><p>MUSIC</p></div>
     </div>
   </main>
   <!-- CATEGORY AUDIO END -->
+  <script src="javascript/javascript.js"></script>
 
 </body>
 </html>

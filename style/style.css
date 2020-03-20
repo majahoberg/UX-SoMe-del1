@@ -13,7 +13,7 @@ header{
   align-items: center;
 }
 .tilbage{
-  width: 50%;
+  width: 40%;
 }
 h1,
 p {
@@ -35,11 +35,12 @@ p {
 }
 
 h1 {
-    text-transform: uppercase;
-    margin-top: 50px;
-    font-size: 46px;
-    letter-spacing: 3px;
-    text-align: center;
+  text-transform: uppercase;
+ margin-top: 100px;
+ margin-bottom: 10px;
+ font-size: 46px;
+ letter-spacing: 3px;
+ text-align: center;
 }
 
 .forside h1{
@@ -53,10 +54,8 @@ margin-top: 100px;
 
 p {
     font-size: 20px;
-    width: auto;
     line-height: 28px;
-    width: 490px;
-    text-align: center;
+    width: 580px;
 }
 
 main,

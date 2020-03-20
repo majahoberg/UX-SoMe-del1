@@ -1,41 +1,50 @@
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background: #57b7cb;
-    font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #57b7cb;
+  font-family: 'Montserrat', sans-serif;
 }
-header{
+
+header {
   background: #57b7cb;
   font-family: 'Montserrat', sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.tilbage{
+
+.tilbage {
   width: 40%;
 }
-.forsideapi{
-width: 100%;
-justify-content: flex-Start;
-}
-.api{
 
+.forsideapi {
+  width: 100%;
 }
+
+.forsideapi p {
+  justify-content: flex-end;
+}
+
+.api {}
+
 h1,
 p {
-    color: #f4f4f7;
+  color: #f4f4f7;
 }
-.infotext{
+
+.infotext {
   border-radius: 50px;
   background: #f4f4f7;
-  }
-.infotext p{
-    color #57b7cb;
-    align-items: center;
-    justify-content: center;
-  }
-.flex{
+}
+
+.infotext p {
+  color #57b7cb;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,79 +52,79 @@ p {
 
 h1 {
   text-transform: uppercase;
- margin-top: 100px;
- margin-bottom: 10px;
- font-size: 46px;
- letter-spacing: 3px;
- text-align: center;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  font-size: 46px;
+  letter-spacing: 3px;
+  text-align: center;
 }
 
-.forside h1{
+.forside h1 {
   font-size: 70px;
   margin-top: 10px;
 }
 
 .forside {
-margin-top: 100px;
+  margin-top: 100px;
 }
 
 p {
-    font-size: 20px;
-    line-height: 30px;
-    width: 480px;
+  font-size: 20px;
+  line-height: 30px;
+  width: 480px;
 }
 
 main,
 p {
-    display: grid;
-    justify-content: center;
-    margin: 10px;
+  display: grid;
+  justify-content: center;
+  margin: 10px;
 }
 
 .forside button {
-    width: 150px;
-    height: 50px;
-    color: #57b7cb;
-    border-radius: 10px;
-    border-style: none;
-    background-color: white;
-    font-size: 20px;
-    text-transform: uppercase;
-    box-shadow:  1px 4px #258DA2;
-    margin-top: 50px;
+  width: 150px;
+  height: 50px;
+  color: #57b7cb;
+  border-radius: 10px;
+  border-style: none;
+  background-color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  box-shadow: 1px 4px #258DA2;
+  margin-top: 50px;
 }
 
+.forside img {
+  width: 170px;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 100px;
+}
 
-  .forside img{
-      width: 170px;
-      position: absolute;
-      margin-left: 40px;
-      margin-top: 100px;
-  }
 .forside a {
-        margin: 0 auto;
+  margin: 0 auto;
 }
 
-
-button a{
-    text-decoration: none;
-    color: #57b7cb;
-}
-.category button{
-    width: 120px;
-    height: 120px;
-    margin: 25px;
-    border-radius: 50%;
-    border-style: none;
-    box-shadow:  0px 5px #258DA2;
-    border-style: none;
+button a {
+  text-decoration: none;
+  color: #57b7cb;
 }
 
-.categoryaudio button, .categorycamera button{
-    width: 115px;
-    height: 115px;
-    margin: 25px;
-    border-radius: 50%;
-    border-style: none;
-    box-shadow:  0px 4px #258DA2;
-    border-style: none;
+.category button {
+  width: 120px;
+  height: 120px;
+  margin: 25px;
+  border-radius: 50%;
+  border-style: none;
+  box-shadow: 0px 5px #258DA2;
+  border-style: none;
+}
+
+.categoryaudio button, .categorycamera button {
+  width: 115px;
+  height: 115px;
+  margin: 25px;
+  border-radius: 50%;
+  border-style: none;
+  box-shadow: 0px 4px #258DA2;
+  border-style: none;

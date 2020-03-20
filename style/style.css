@@ -6,23 +6,28 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+/* HEADER START */
 header {
-    background: #57b7cb;
-    font-family: 'Montserrat', sans-serif;
-    width: 100%;
+  background: #57b7cb;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
 }
 
 .tilbage {
-    width: 40%;
+  width: 40%;
 }
+/* HEADER END */
+
+/* TEXT START */
 main,
 p {
   display: grid;
   justify-content: center;
   margin: 10px;
+  font-size: 20px;
+  line-height: 30px;
+  width: 480px;
 }
-
-.api {}
 
 h1 {
   text-transform: uppercase;
@@ -32,44 +37,33 @@ h1 {
   text-align: center;
 }
 
-p {
-  font-size: 20px;
-  line-height: 30px;
-  width: 480px;
+h1,
+p, h6 {
+  color: #f4f4f7;
 }
 
+h6 {
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+/* TEXT END */
 
-  h1,
-  p, h6 {
-      color: #f4f4f7;
-  }
-
-  h6{
-      font-size: 20px;
-      text-align: center;
-      margin: 0 auto;
-      text-transform: uppercase;
-
-  }
-
-  /* F L E X */
-
-
-.flex{
+/* FLEX START */
+.flex {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.flex img{
-    width: 340px;
-    padding-top:
+.flex img {
+  width: 340px;
+  padding-top:
 }
+/* FLEX END */
 
-
-/* F O R S I D E */
-
-
+/* FORSIDE START */
 .forside h1 {
   font-size: 70px;
 }
@@ -108,17 +102,20 @@ button a {
 }
 
 .forsideapi {
-    display: flex;
-
+  display: flex;
 }
 
 .forsideapi p {
-    justify-content: flex-end;
-    width: 50px;
+  justify-content: flex-end;
+  width: 50px;
 }
+/* FORSIDE END */
 
-
-/* C A T E G O R Y */
+/* CATEGORY START */
+.category-boomer h1 {
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
 
 .category button {
   width: 120px;
@@ -140,6 +137,11 @@ button a {
   border-style: none;
 }
 
-.category h1{
+.category h1 {
   margin-top: 100px;
 }
+
+#categoryman {
+  width: 30%;
+}
+/* CATEGORY END */
